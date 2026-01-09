@@ -31,9 +31,74 @@ Insert the images in their appropriate places.
 Publish the website in the LocalHost.
 
 ## PROGRAM:
+```
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>MY BOOK</title>
+
+<style>
+/* CENTER THE BOOK */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;   /* horizontal center */
+    align-items: center;       /* vertical center */
+    height: 100vh;
+    background: #c9c7c7;
+}
+
+/* BOOK COVER */
+#book {
+    width: 500px;
+    height: 700px;
+    background-image: url('image.png');
+    background-size: cover;
+    border: 5px solid rgb(192, 180, 204);
+    border-radius: 18px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* TITLE */
+#book h1 {
+    margin-top: 40px;
+    font-size: 48.5px;
+    color: rgb(127, 101, 154);
+}
+
+/* SUB TEXT */
+#book p {
+    font-size: 11px;
+}
+
+/* AUTHOR */
+#book h2 {
+    font-size: 17.5px;
+}
+</style>
+</head>
+
+<body>
+
+<div id="book">
+    <h1>STAY WITH ME</h1>
+    <p>STILL .....</p>
+    <h2>AYOBAMI  ADEBAYO</h2>
+</div>
+
+</body>
+</html>
+```
+
+
 
 
 ## OUTPUT:
+<img width="1906" height="955" alt="stwm" src="https://github.com/user-attachments/assets/0ae6b41e-23a4-4103-b5ef-4554a78df4c4" />
 
 
 ## RESULT:
